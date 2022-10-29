@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 const Main = () => {
   const [todos, setTodos] = useState([]);
   const [mytodo, setMytodo] = useState({ id: 0, title: "" });
